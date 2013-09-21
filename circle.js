@@ -1,11 +1,7 @@
-function area(radius) {
+exports.area = function(radius) {
   return radius * radius * Math.PI;
 };
 
-function circumference(radius) {
+exports.circumference = function(radius) {
   return 2 * radius * Math.PI;
 };
-
-exports.area = area;
-exports.circumference = circumference;
-
